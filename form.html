@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Knowledge in Investments Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="title">Knowledge in Investments Survey Form</h1>
+    <p id="description">This form is designed to help our team enhance our learning catalog.</p>
+
+    <form id="survey-form">
+
+        <fieldset>
+            <legend>Participant Information</legend>
+            <label for="name" id="name-label">Name:
+                <input id="name" type="text" placeholder="John Doe" required>
+            </label>
+
+            <label for="email" id="email-label">Email:
+                <input id="email" type="email" placeholder="user@domain.com" required>
+            </label>
+
+            <label for="number" id="number-label">Age:
+                <input id="number" type="number" min="13" max="120" placeholder="Insert">
+            </label>
+
+            <label for="dropdown">What is your current course?
+                <select id="dropdown">
+                    <option>select a course</option>
+                    <option>Investments with Us: Essencials</option>
+                    <option>Working with Stock Exchange</option>
+                    <option>Financial Health: First Steps</option>
+                    <option>Investing as an Entrepeneur</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Class Experience Rating (1-10)</legend>
+            <input type="radio" id="1" name="experience" value="1">1
+        </label>
+         <label for="2">
+          <input type="radio" id="2" name="experience" value="2">2
+        </label>
+         <label for="3">
+          <input type="radio" id="3" name="experience" value="3">3
+        </label>
+         <label for="4">
+          <input type="radio" id="4" name="experience" value="4">4
+        </label>
+         <label for="5">
+          <input type="radio" id="5" name="experience" value="5">5
+        </label>
+         <label for="6">
+          <input type="radio" id="6" name="experience" value="6">6
+        </label>
+         <label for="7">
+          <input type="radio" id="7" name="experience" value="7">7
+        </label>
+         <label for="8">
+          <input type="radio" id="8" name="experience" value="8">8
+        </label>
+         <label for="9">
+          <input type="radio" id="9" name="experience" value="9">9
+        </label>
+         <label for="10">
+          <input type="radio" id="10" checked name="experience" value="10">10
+        </label>
+        </fieldset>  
+
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="dropdown" id="level">What is your current level of knowledge in investments?
+        <select id="dropdown">
+          <option>select an option</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+        </label>
+        <label for="dropdown" id="risk">How would you describe your risk tolerance when it comes to investments?
+        <select id="dropdown">
+          <option>select an option</option>
+          <option>Low</option>
+          <option>Medium</option>
+          <option>High</option>
+        </select>
+        </label>
+        <label for="dropdown" id="preference">Do you prefer short-term or long-term investments?
+        <select id="dropdown">
+          <option>select an option</option>
+          <option>Short-term</option>
+          <option>Long-term</option>
+        </select>
+        </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback-valuable" id="feedback-valuablelabel">What aspects of the learning catalog do you find most valuable?
+          <textarea id="feedback-valuable" name="feedback-valuable"></textarea>
+        </label>
+        <label for="feedback-future" id="feedback-futurelabel">Are there specific topics or areas you would like to see covered in future courses?
+          <textarea id="feedback-future" name="feedback-future"></textarea>
+        </label>
+        <label for="feedback-satisfaction" id="feedback-satisfactionlabel">How satisfied are you with the current format and delivery of the learning materials?
+          <textarea id="feedback-satisfaction" name="feedback-satifaction"></textarea>
+        </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Suggestions</legend>
+            <label for="suggestion-improving">Do you have any suggestions for improving the overall learning experience?
+          <textarea id="suggestion-improving"></textarea>
+          <label for="suggestion-webinars">Would you be interested in workshops, webinars, or additional resources to supplement your learning?
+          <textarea id="suggestion-webinars"></textarea>
+        </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Demographic Information</legend>
+            <label for="occupation">
+          What is your occupation or field of studying?
+          <textarea id="occupation"></textarea>
+        </label>
+        <label for="income">
+          What is your income range?
+          <select type="dropdown" id="income">
+          <option>Below $30,000</option>
+          <option>$30,000 - $60,000</option>
+          <option>$60,000 - $100,000</option>
+          <option>Above $100,000</option>
+          </select>
+          </input>
+        </label>
+        </fieldset>
+
+        <fieldset>
+           <label for="accept">I accept the terms and conditions
+        <input class="inline" id="accept" type="checkbox"/>
+        </fieldset>
+
+        <fieldset>
+      <label for="accept">I accept the usage of my answers for improvement purposes
+        <input class="inline" id="accept" type="checkbox"/> 
+      </label>
+        </fieldset>
+    
+        <input id="submit" type="submit">
+    </form>
+</body>
+
+</html>
